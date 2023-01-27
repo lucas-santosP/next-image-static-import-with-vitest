@@ -1,4 +1,7 @@
-/** Add your relevant code here for the issue to reproduce */
+import vercelLogo from "../public/vercel.svg";
+
+import Image from "next/image";
+
 export default function Home() {
-  return null
+  return <Image src={vercelLogo} alt="Vercel Logo" />;
 }
